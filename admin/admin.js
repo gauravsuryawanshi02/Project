@@ -5,7 +5,7 @@ require('./model/db');
 const port = process.env.PORT || 4000;
 
 farmer.get("/admin",(req,res)=>{
-    res.send("hello from admin");
+    res.send("hello from admin again");
 })
 
 
