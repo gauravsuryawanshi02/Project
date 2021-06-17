@@ -5,5 +5,5 @@ try {
     mongoose.connect( mongoAtlasUri, {useNewUrlParser: true, useUnifiedTopology: true,useCreateIndex: true}, () =>
     console.log("connected"));    
     }catch (error) { 
-    console.log("could not connect");    
+    console.log("not connected");    
     }
